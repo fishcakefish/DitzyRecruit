@@ -15,11 +15,11 @@ function Navigation({ isLoaded }){
 			<li>
 				<NavLink exact to="/new-page-same-content">new page same content</NavLink>
 			</li>
-			{/* {isLoaded && (
+			{isLoaded && (
 				<li>
 					<ProfileButton user={sessionUser} />
 				</li>
-			)} */}
+			)}
 		</ul>
 	);
 }
