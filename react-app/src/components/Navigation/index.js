@@ -8,12 +8,18 @@ function Navigation({ isLoaded }){
 	const sessionUser = useSelector(state => state.session.user);
 
 	return (
-		<ul>
-			<li>
-				<NavLink exact to="/">Home</NavLink>
+		<div className='nav-background'>
+		<ul className='nav-bar'>
+			<li className='logo-li'>
+				<NavLink exact to="/">
+					<img src="/Ditzy.png" alt="Logo" className='nav-logo' />
+				</NavLink>
 			</li>
 			<li>
-				<NavLink exact to="/new-page-same-content">new page same content</NavLink>
+				<NavLink exact to="/apple">apple!</NavLink>
+			</li>
+			<li>
+				<NavLink exact to="/banana">banana!</NavLink>
 			</li>
 			{isLoaded && (
 				<li>
@@ -21,6 +27,7 @@ function Navigation({ isLoaded }){
 				</li>
 			)}
 		</ul>
+		</div>
 	);
 }
 

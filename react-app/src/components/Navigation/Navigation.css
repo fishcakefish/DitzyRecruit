@@ -1,3 +1,28 @@
+.nav-background {
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute space between items */
+  list-style: none;
+  padding: 0 20px; /* Add padding if needed */
+}
+
+.logo-li {
+  margin-right: auto; /* Pushes other items to the right */
+}
+
+.nav-bar li {
+  margin: 0 10px; /* Add space between navigation items */
+}
+
+.nav-logo {
+  height: 40px; /* Adjust the size as needed */
+  width: auto;
+}
+
 .profile-dropdown {
   position: absolute;
 }
