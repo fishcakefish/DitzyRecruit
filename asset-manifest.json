@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/DitzyRecruit/react-app/static/css/main.55633b0a.chunk.css",
+    "main.js": "/DitzyRecruit/react-app/static/js/main.bcbf52c2.chunk.js",
+    "main.js.map": "/DitzyRecruit/react-app/static/js/main.bcbf52c2.chunk.js.map",
+    "runtime-main.js": "/DitzyRecruit/react-app/static/js/runtime-main.e55639e6.js",
+    "runtime-main.js.map": "/DitzyRecruit/react-app/static/js/runtime-main.e55639e6.js.map",
+    "static/js/2.1480dea1.chunk.js": "/DitzyRecruit/react-app/static/js/2.1480dea1.chunk.js",
+    "static/js/2.1480dea1.chunk.js.map": "/DitzyRecruit/react-app/static/js/2.1480dea1.chunk.js.map",
+    "index.html": "/DitzyRecruit/react-app/index.html",
+    "static/css/main.55633b0a.chunk.css.map": "/DitzyRecruit/react-app/static/css/main.55633b0a.chunk.css.map",
+    "static/js/2.1480dea1.chunk.js.LICENSE.txt": "/DitzyRecruit/react-app/static/js/2.1480dea1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e55639e6.js",
+    "static/js/2.1480dea1.chunk.js",
+    "static/css/main.55633b0a.chunk.css",
+    "static/js/main.bcbf52c2.chunk.js"
+  ]
+}
