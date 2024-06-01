@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-hook-pictures {
+    width: 300px;  /* Adjust this width as necessary */
+    height: 300px; /* Adjust this height to maintain aspect ratio */
+    overflow: hidden;
+}
+
+.container-hook-pictures img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjust or remove as necessary depending on image aspect ratios */
+    transition: opacity 0.2s ease-in-out; /* Smooth transition for opacity change */
+}
+
+.fade {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}

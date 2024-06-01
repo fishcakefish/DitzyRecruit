@@ -5,8 +5,13 @@ import SignupFormPage from "./components/SignupFormPage";
 import LoginFormPage from "./components/LoginFormPage";
 import { authenticate } from "./store/session";
 import Navigation from "./components/Navigation";
-import Apple from "./components/Apple";
-import Banana from "./components/Banana";
+import Models from "./components/Models";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Blog from "./components/Blog";
+import Instagram from "./components/Instagram";
+import Connect from "./components/Connect";
+import Home from "./components/Home";
 
 function App() {
   const dispatch = useDispatch();
@@ -26,11 +31,26 @@ function App() {
           <Route path="/signup">
             <SignupFormPage />
           </Route>
-          <Route path="/apple">
-            <Apple />
+          <Route path="/models">
+            <Models />
           </Route>
-          <Route path="/banana">
-            <Banana />
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/blog">
+            <Blog />
+          </Route>
+          <Route path="/instagram">
+            <Instagram />
+          </Route>
+          <Route path="/connect">
+            <Connect />
+          </Route>
+          <Route path="/">
+            <Home />
           </Route>
         </Switch>
       )}

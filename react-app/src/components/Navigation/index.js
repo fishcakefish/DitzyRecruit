@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import ProfileButton from './ProfileButton';
+import Blog from '../Blog';
 import './Navigation.css';
 
 function Navigation({ isLoaded }){
@@ -9,24 +10,40 @@ function Navigation({ isLoaded }){
 
 	return (
 		<div className='nav-background'>
-		<ul className='nav-bar'>
-			<li className='logo-li'>
-				<NavLink exact to="/">
-					<img src="/Ditzy.png" alt="Logo" className='nav-logo' />
-				</NavLink>
-			</li>
-			<li>
-				<NavLink exact to="/apple">apple!</NavLink>
-			</li>
-			<li>
-				<NavLink exact to="/banana">banana!</NavLink>
-			</li>
-			{isLoaded && (
-				<li>
-					<ProfileButton user={sessionUser} />
+			<ul className='nav-bar'>
+				<div className='nav-desktop'>
+					<li>
+						<NavLink exact to="/">Home</NavLink>
+					</li>
+					<li>
+						<NavLink exact to="/models">Models</NavLink>
+					</li>
+					<li>
+						<NavLink exact to="/about">About</NavLink>
+					</li>
+					<li>
+						<NavLink exact to="/contact">Contact</NavLink>
+					</li>
+					<li>
+						<NavLink exact to="/blog">Blog</NavLink>
+					</li>
+				</div>
+				<li className='logo-li'>
+					<NavLink exact to="/">
+						<img src="/Ditzy.png" alt="Logo" className='nav-logo' />
+					</NavLink>
 				</li>
-			)}
-		</ul>
+				<div className='nav-contacts-desktop'>
+					<li>
+						<NavLink exact to="/instagram">Instagram</NavLink>
+					</li>
+					<li>
+						<button>
+							<NavLink exact to="/connect">Connect</NavLink>
+						</button>
+					</li>
+				</div>
+			</ul>
 		</div>
 	);
 }

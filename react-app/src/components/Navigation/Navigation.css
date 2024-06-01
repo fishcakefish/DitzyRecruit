@@ -1,6 +1,6 @@
 .nav-background {
   width: 100%;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #0f0e0e;
 }
 
 .nav-bar {
@@ -22,6 +22,14 @@
 .nav-logo {
   height: 40px; /* Adjust the size as needed */
   width: auto;
+}
+
+.nav-desktop {
+  display: flex;
+}
+
+.nav-contacts-desktop {
+  display: flex;
 }
 
 .profile-dropdown {
