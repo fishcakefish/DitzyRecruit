@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ditzyrecruit/static/css/main.55633b0a.chunk.css",
+    "main.js": "/ditzyrecruit/static/js/main.bcbf52c2.chunk.js",
+    "main.js.map": "/ditzyrecruit/static/js/main.bcbf52c2.chunk.js.map",
+    "runtime-main.js": "/ditzyrecruit/static/js/runtime-main.952a2635.js",
+    "runtime-main.js.map": "/ditzyrecruit/static/js/runtime-main.952a2635.js.map",
+    "static/js/2.1480dea1.chunk.js": "/ditzyrecruit/static/js/2.1480dea1.chunk.js",
+    "static/js/2.1480dea1.chunk.js.map": "/ditzyrecruit/static/js/2.1480dea1.chunk.js.map",
+    "index.html": "/ditzyrecruit/index.html",
+    "static/css/main.55633b0a.chunk.css.map": "/ditzyrecruit/static/css/main.55633b0a.chunk.css.map",
+    "static/js/2.1480dea1.chunk.js.LICENSE.txt": "/ditzyrecruit/static/js/2.1480dea1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.952a2635.js",
+    "static/js/2.1480dea1.chunk.js",
+    "static/css/main.55633b0a.chunk.css",
+    "static/js/main.bcbf52c2.chunk.js"
+  ]
+}
