@@ -37,10 +37,8 @@ function Navigation({ isLoaded }){
 					<li>
 						<NavLink exact to="/DitzyRecruit/instagram">Instagram</NavLink>
 					</li>
-					<li>
-						<button>
-							<NavLink exact to="/DitzyRecruit/connect">Connect</NavLink>
-						</button>
+					<li className='connect-btn'>
+						<NavLink exact to="/DitzyRecruit/connect">Connect</NavLink>
 					</li>
 				</div>
 			</ul>

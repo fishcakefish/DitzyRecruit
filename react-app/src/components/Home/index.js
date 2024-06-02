@@ -47,21 +47,28 @@ export default function Home() {
     return (
         <div className='container'>
             <div className='container-hook-text'>
-                UNLOCK YOUR POTENTIAL
+                <div className='container-hook-text-upper'>
+                    <h1>UNLOCK</h1>
+                </div>
+                <div className='container-hook-text-lower'>
+                    <h1>YOUR POTENTIAL</h1>
+                </div>
             </div>
             <div className='container-hook-pictures'>
-                <img
-                    src={images[currentImageIndex]}
-                    alt={`Slide ${currentImageIndex + 1}`}
-                    className="fade"
-                    style={{ opacity }}
-                />
-                <img
-                    src={images[nextImageIndex]}
-                    alt={`Slide ${nextImageIndex + 1}`}
-                    className="fade"
-                    style={{ opacity: 1 - opacity }}
-                />
+                <div className='container-hook-pictures-pictures'>
+                    <img
+                        src={images[currentImageIndex]}
+                        alt={`Slide ${currentImageIndex + 1}`}
+                        className="fade"
+                        style={{ opacity }}
+                    />
+                    <img
+                        src={images[nextImageIndex]}
+                        alt={`Slide ${nextImageIndex + 1}`}
+                        className="fade"
+                        style={{ opacity: 1 - opacity }}
+                    />
+                </div>
             </div>
         </div>
     );

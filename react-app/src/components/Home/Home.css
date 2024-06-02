@@ -1,16 +1,45 @@
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
 }
+
+.container-hook-text {
+    text-align: center;
+    z-index: 2;
+    font-family: 'Alex Brush';
+    font-size: 24px;
+    color: black;
+}
+
+/* .container-hook-text-upper {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.container-hook-text-lower {
+    font-size: 36px;
+} */
 
 .container-hook-pictures {
-    width: 300px;  /* Adjust this width as necessary */
-    height: 300px; /* Adjust this height to maintain aspect ratio */
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 700px;
 }
 
-.container-hook-pictures img {
+.container-hook-pictures-pictures {
+    width: 430px;  /* Adjust this width as necessary */
+    height: 630px; /* Adjust this height to maintain aspect ratio */
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.container-hook-pictures-pictures img {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Adjust or remove as necessary depending on image aspect ratios */

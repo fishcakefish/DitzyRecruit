@@ -1,6 +1,9 @@
 .nav-background {
   width: 100%;
   border-bottom: 1px solid #0f0e0e;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .nav-bar {
@@ -8,7 +11,12 @@
   align-items: center;
   justify-content: space-between; /* Distribute space between items */
   list-style: none;
-  padding: 0 20px; /* Add padding if needed */
+  padding: 20px 20px; /* Add padding if needed */
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white
 }
 
 .logo-li {
@@ -30,12 +38,19 @@
 
 .nav-contacts-desktop {
   display: flex;
+  justify-content: space-between;  /* Ensures that there is space between items */
+  align-items: center;  /* Aligns items vertically */
+  padding-right: 40px;
 }
 
-.profile-dropdown {
-  position: absolute;
+.connect-btn a {
+  padding: 20px 60px;
+  background-color: white; /* Gold background for emphasis */
+  color: #000; /* Text color */
+  border-radius: 30px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-.hidden {
-  display: none;
+.connect-btn a:hover {
+  background-color: #f0c040; /* Lighter gold on hover */
 }
