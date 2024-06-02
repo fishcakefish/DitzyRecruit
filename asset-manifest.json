@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/DitzyRecruit/static/css/main.55633b0a.chunk.css",
-    "main.js": "/DitzyRecruit/static/js/main.bcbf52c2.chunk.js",
-    "main.js.map": "/DitzyRecruit/static/js/main.bcbf52c2.chunk.js.map",
+    "main.js": "/DitzyRecruit/static/js/main.b01f2b1d.chunk.js",
+    "main.js.map": "/DitzyRecruit/static/js/main.b01f2b1d.chunk.js.map",
     "runtime-main.js": "/DitzyRecruit/static/js/runtime-main.527f2d53.js",
     "runtime-main.js.map": "/DitzyRecruit/static/js/runtime-main.527f2d53.js.map",
     "static/js/2.1480dea1.chunk.js": "/DitzyRecruit/static/js/2.1480dea1.chunk.js",
     "static/js/2.1480dea1.chunk.js.map": "/DitzyRecruit/static/js/2.1480dea1.chunk.js.map",
     "index.html": "/DitzyRecruit/index.html",
     "static/css/main.55633b0a.chunk.css.map": "/DitzyRecruit/static/css/main.55633b0a.chunk.css.map",
-    "static/js/2.1480dea1.chunk.js.LICENSE.txt": "/DitzyRecruit/static/js/2.1480dea1.chunk.js.LICENSE.txt"
+    "static/js/2.1480dea1.chunk.js.LICENSE.txt": "/DitzyRecruit/static/js/2.1480dea1.chunk.js.LICENSE.txt",
+    "static/media/Ditzy.629c2d6c.png": "/DitzyRecruit/static/media/Ditzy.629c2d6c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.527f2d53.js",
     "static/js/2.1480dea1.chunk.js",
     "static/css/main.55633b0a.chunk.css",
-    "static/js/main.bcbf52c2.chunk.js"
+    "static/js/main.b01f2b1d.chunk.js"
   ]
 }
