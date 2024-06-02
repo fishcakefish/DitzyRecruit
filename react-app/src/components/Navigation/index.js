@@ -43,6 +43,7 @@ function Navigation({ isLoaded }){
 						</button>
 					</li>
 				</div>
+				<div>test to see if commit is going through</div>
 			</ul>
 		</div>
 	);
