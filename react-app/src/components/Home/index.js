@@ -1,20 +1,29 @@
 import { useState, useEffect } from 'react'
 import './Home.css'
+import SpongebobPortrait from '../../assets/images/spongebob.jpg'
+import PatrickPortrait from '../../assets/images/patrick.jpg'
+import SquidwardPortrait from '../../assets/images/squidward.jpg'
+import SandyPortrait from '../../assets/images/sandy.jpg'
+import PlanktonPortrait from '../../assets/images/plankton.jpg'
+import PuffPortrait from '../../assets/images/puff.jpg'
+import KrabsPortrait from '../../assets/images/krabs.jpg'
+import KarenPortrait from '../../assets/images/karen.jpg'
+import LarryPortrait from '../../assets/images/larry.jpg'
 
 export default function Home() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [nextImageIndex, setNextImageIndex] = useState(1); // Start with the second image
     const [opacity, setOpacity] = useState(1); // Start fully opaque
     const images = [
-        '/spongebob.jpg',
-        '/patrick.jpg',
-        '/squidward.jpg',
-        '/sandy.jpg',
-        '/plankton.jpg',
-        '/puff.jpg',
-        '/krabs.jpg',
-        '/karen.jpg',
-        '/larry.jpg'
+        SpongebobPortrait,
+        PatrickPortrait,
+        SquidwardPortrait,
+        SandyPortrait,
+        PlanktonPortrait,
+        PuffPortrait,
+        KrabsPortrait,
+        KarenPortrait,
+        LarryPortrait
     ];
 
     useEffect(() => {

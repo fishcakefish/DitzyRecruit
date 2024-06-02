@@ -31,25 +31,25 @@ function App() {
           <Route path="/signup">
             <SignupFormPage />
           </Route>
-          <Route path="/models">
+          <Route path="/DitzyRecruit/models">
             <Models />
           </Route>
-          <Route path="/about">
+          <Route path="/DitzyRecruit/about">
             <About />
           </Route>
-          <Route path="/contact">
+          <Route path="/DitzyRecruit/contact">
             <Contact />
           </Route>
-          <Route path="/blog">
+          <Route path="/DitzyRecruit/blog">
             <Blog />
           </Route>
-          <Route path="/instagram">
+          <Route path="/DitzyRecruit/instagram">
             <Instagram />
           </Route>
-          <Route path="/connect">
+          <Route path="/DitzyRecruit/connect">
             <Connect />
           </Route>
-          <Route path="/">
+          <Route path="/DitzyRecruit/">
             <Home />
           </Route>
         </Switch>

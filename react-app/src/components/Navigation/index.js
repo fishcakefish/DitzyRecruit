@@ -13,37 +13,36 @@ function Navigation({ isLoaded }){
 			<ul className='nav-bar'>
 				<div className='nav-desktop'>
 					<li>
-						<NavLink exact to="/">Home</NavLink>
+						<NavLink exact to="/DitzyRecruit/">Home</NavLink>
 					</li>
 					<li>
-						<NavLink exact to="/models">Models</NavLink>
+						<NavLink exact to="/DitzyRecruit/models">Models</NavLink>
 					</li>
 					<li>
-						<NavLink exact to="/about">About</NavLink>
+						<NavLink exact to="/DitzyRecruit/about">About</NavLink>
 					</li>
 					<li>
-						<NavLink exact to="/contact">Contact</NavLink>
+						<NavLink exact to="/DitzyRecruit/contact">Contact</NavLink>
 					</li>
 					<li>
-						<NavLink exact to="/blog">Blog</NavLink>
+						<NavLink exact to="/DitzyRecruit/blog">Blog</NavLink>
 					</li>
 				</div>
 				<li className='logo-li'>
-					<NavLink exact to="/">
+					<NavLink exact to="/DitzyRecruit/">
 						<img src={DitzyImage} alt="Logo" className='nav-logo' />
 					</NavLink>
 				</li>
 				<div className='nav-contacts-desktop'>
 					<li>
-						<NavLink exact to="/instagram">Instagram</NavLink>
+						<NavLink exact to="/DitzyRecruit/instagram">Instagram</NavLink>
 					</li>
 					<li>
 						<button>
-							<NavLink exact to="/connect">Connect</NavLink>
+							<NavLink exact to="/DitzyRecruit/connect">Connect</NavLink>
 						</button>
 					</li>
 				</div>
-				<div>test to see if commit is going through</div>
 			</ul>
 		</div>
 	);
