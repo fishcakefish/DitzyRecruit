@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import ProfileButton from './ProfileButton';
-import Blog from '../Blog';
+import DitzyImage from '../../assets/images/Ditzy.png';
 import './Navigation.css';
 
 function Navigation({ isLoaded }){
@@ -30,7 +30,7 @@ function Navigation({ isLoaded }){
 				</div>
 				<li className='logo-li'>
 					<NavLink exact to="/">
-						<img src="/Ditzy.png" alt="Logo" className='nav-logo' />
+						<img src={DitzyImage} alt="Logo" className='nav-logo' />
 					</NavLink>
 				</li>
 				<div className='nav-contacts-desktop'>
